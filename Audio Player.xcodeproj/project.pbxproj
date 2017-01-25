@@ -12,6 +12,11 @@
 		AF7796D41E39150C0015BC45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7796D21E39150C0015BC45 /* Main.storyboard */; };
 		AF7796D61E39150C0015BC45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7796D51E39150C0015BC45 /* Assets.xcassets */; };
 		AF7796D91E39150C0015BC45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7796D71E39150C0015BC45 /* LaunchScreen.storyboard */; };
+		AF7796E11E3917820015BC45 /* rehab.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF7796E01E3917820015BC45 /* rehab.mp3 */; };
+		AF94BF691E392772006CC63C /* amy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF94BF681E392772006CC63C /* amy.jpg */; };
+		AF94BF6C1E392B06006CC63C /* maggie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF94BF6B1E392B06006CC63C /* maggie.jpg */; };
+		AF94BF6E1E392B1A006CC63C /* alaska.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF94BF6D1E392B1A006CC63C /* alaska.mp3 */; };
+		AF94BF701E3935A2006CC63C /* MaggieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF94BF6F1E3935A2006CC63C /* MaggieViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		AF7796D51E39150C0015BC45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF7796D81E39150C0015BC45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF7796DA1E39150C0015BC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF7796E01E3917820015BC45 /* rehab.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = rehab.mp3; path = ../../../Downloads/rehab.mp3; sourceTree = "<group>"; };
+		AF94BF681E392772006CC63C /* amy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = amy.jpg; path = ../../../Desktop/lizhealy.io/amy.jpg; sourceTree = "<group>"; };
+		AF94BF6B1E392B06006CC63C /* maggie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = maggie.jpg; path = ../../../Desktop/lizhealy.io/maggie.jpg; sourceTree = "<group>"; };
+		AF94BF6D1E392B1A006CC63C /* alaska.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alaska.mp3; path = ../../../Downloads/alaska.mp3; sourceTree = "<group>"; };
+		AF94BF6F1E3935A2006CC63C /* MaggieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaggieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +66,15 @@
 			children = (
 				AF7796CE1E39150C0015BC45 /* AppDelegate.swift */,
 				AF7796D01E39150C0015BC45 /* ViewController.swift */,
+				AF7796E01E3917820015BC45 /* rehab.mp3 */,
 				AF7796D21E39150C0015BC45 /* Main.storyboard */,
+				AF94BF681E392772006CC63C /* amy.jpg */,
 				AF7796D51E39150C0015BC45 /* Assets.xcassets */,
+				AF94BF6D1E392B1A006CC63C /* alaska.mp3 */,
 				AF7796D71E39150C0015BC45 /* LaunchScreen.storyboard */,
+				AF94BF6B1E392B06006CC63C /* maggie.jpg */,
 				AF7796DA1E39150C0015BC45 /* Info.plist */,
+				AF94BF6F1E3935A2006CC63C /* MaggieViewController.swift */,
 			);
 			path = "Audio Player";
 			sourceTree = "<group>";
@@ -123,9 +138,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF7796E11E3917820015BC45 /* rehab.mp3 in Resources */,
 				AF7796D91E39150C0015BC45 /* LaunchScreen.storyboard in Resources */,
 				AF7796D61E39150C0015BC45 /* Assets.xcassets in Resources */,
+				AF94BF6C1E392B06006CC63C /* maggie.jpg in Resources */,
+				AF94BF6E1E392B1A006CC63C /* alaska.mp3 in Resources */,
 				AF7796D41E39150C0015BC45 /* Main.storyboard in Resources */,
+				AF94BF691E392772006CC63C /* amy.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF7796D11E39150C0015BC45 /* ViewController.swift in Sources */,
+				AF94BF701E3935A2006CC63C /* MaggieViewController.swift in Sources */,
 				AF7796CF1E39150C0015BC45 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +317,7 @@
 				AF7796DF1E39150C0015BC45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
